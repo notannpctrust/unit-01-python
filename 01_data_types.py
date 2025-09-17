@@ -94,6 +94,33 @@ print("------task5---------")
 print()
 print()
 
+# original string 
+number_string = "1, 2, 3, 4, 5"
+
+#Conversion process (string into a tuple of integers)
+number_tuple = tuple(int(num.strip()) for num in number_string.split(','))
+
+#Printing Results
+print("1, 2, 3, 4, 5", number_string)
+print("")
+
+"""
+TASK6
+Create a list of your favorite subjects (as strings). 
+Use the join() function to combine all subjects into a single string separated by commas.
+Then create another version using " - " as the separator.
+Print both the original list and both joined strings.
+
+"""
+
+print("------task6---------")
+print()
+print()
+
+
+
+
+
 
 
 
