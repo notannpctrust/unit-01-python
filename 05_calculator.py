@@ -21,6 +21,7 @@ print("Welcome,User.")
 print()
 print()
 print()
+print("By the way you cant put 0 as a denominator,just dont try it.")
 
 #Getting variables for numbers and operators 
 num1 = float(input("First number:"   ))
@@ -36,7 +37,7 @@ print()
 print()
 print()
 
-#Making many if/elif statements for each operator.Short and Simple
+#Making many if/elif statements for each operator.Short and Simple.Including the Part where division by zero isn't allowed
 if op == "+":
     print(f"Result: {num1+num2}")
 elif op == "-":
@@ -44,13 +45,22 @@ elif op == "-":
 elif op == "*":
     print(f"Result: {num1 * num2}")
 elif op == "/":
-    print(f"Result: {num1 / num2}")
+    if num2 == 0:
+        print("I did say division my 0 IS NOT allowed.")
+    else:
+        print(f"Result: {num1 / num2}")
 elif op == "//":
-    print(f"Result: {num1 // num2}")
+    if num2 == 0:
+        print("Stop toying with the system.Division with the 0 wont work.")
+    else:
+        print(f"Result: {num1 // num2}")
 elif op == "**":
     print(f"Result: {num1 ** num2}")
 elif op == "%":
-    print(f"Result: {num1 % num2}")
+    if num2 == 0
+       print("You are doing this on purpose,aren't you?Division by 0 IS NOT ALLOWED.")
+    else:
+     print(f"Result: {num1 % num2}")
 else:
     print("Error:Invalid Error ")
 
