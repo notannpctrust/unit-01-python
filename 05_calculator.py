@@ -22,7 +22,7 @@ print()
 print()
 print()
 
-#Getting variables for numbers 
+#Getting variables for numbers and operators 
 num1 = float(input("First number:"   ))
 print()
 print()
@@ -36,6 +36,7 @@ print()
 print()
 print()
 
+#Making many if/elif statements for each operator.Short and Simple
 if op == "+":
     print(f"Result: {num1+num2}")
 elif op == "-":
