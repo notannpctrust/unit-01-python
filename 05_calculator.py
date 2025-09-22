@@ -57,11 +57,14 @@ elif op == "//":
 elif op == "**":
     print(f"Result: {num1 ** num2}")
 elif op == "%":
-    if num2 == 0
+    if num2 == 0:
        print("You are doing this on purpose,aren't you?Division by 0 IS NOT ALLOWED.")
     else:
      print(f"Result: {num1 % num2}")
 else:
     print("Error:Invalid Error ")
+
+
+
 
 
