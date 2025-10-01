@@ -23,6 +23,8 @@ while True:#Using a True statement for my while loop seems to let me keep the lo
         to_do_list.append(new_item)
     
     elif choice == 'delete':
+        deleted_item = int(input("Enter your deleted item:"))
+        del to_do_list[deleted_item -1]
         
     
     
