@@ -31,7 +31,7 @@ while True:#Using a True statement for my while loop to let me keep the loop go 
 
     elif choice == "exit":
         with open("to_do_list.txt", "w") as file:
-            file.write("\n".)
+            file.write
      
         
 
