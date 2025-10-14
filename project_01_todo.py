@@ -30,13 +30,4 @@ while True:#Using a True statement for my while loop to let me keep the loop go 
         del to_do_list[deleted_item -1]#Using the same layout as the "add" choice for simplicity
 
     elif choice == "exit":
-        with open("to_do_list.txt", "w") as file:
-            file.write
-     
-        
-
-    
-    
-    
-
-    
+        with open("to_do_list.txt", "w") as file: 
