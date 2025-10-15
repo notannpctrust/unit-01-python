@@ -19,7 +19,7 @@ while True:#Using a True statement for my while loop to let me keep the loop go 
     print("Option3:edit")
     print()
     print("Option4:Clear all")
-    choice = input("What would you like to do?:")
+    choice = input("What would you like to do first?:")
     print()
     if choice == 'add':
         new_item = input("Enter a new todo list item:")
