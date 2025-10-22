@@ -78,3 +78,25 @@ Test these methods with instances of the class.
 print()
 print()
 print("------TASK3--------")
+
+
+#BankAccount class
+class BankAccount:
+    def __init__(self, owner , balance):
+        self.owner
+        self.balance
+
+    def deposit(self, amount):
+        self.balance += amount
+        print("Deposited:", amount)
+
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+            print("Withdrew:", amount)
+        
+        else:
+            print("Not enough balance.")
+
+#create an account
+account = BankAccount("Christopher", 75)
