@@ -39,6 +39,6 @@ print()
 print()
 print("--------TASK3-------")
 
-if
+
 
 
