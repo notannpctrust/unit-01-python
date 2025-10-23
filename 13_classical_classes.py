@@ -83,9 +83,10 @@ print("------TASK3--------")
 #BankAccount class
 class BankAccount:
     def __init__(self, owner , balance):
-        self.owner
-        self.balance
+        self.owner = owner
+        self.balance = balance
 
+#making a function for my class using self and amount for both depositing and withdrawing
     def deposit(self, amount):
         self.balance += amount
         print("Deposited:", amount)
@@ -100,3 +101,8 @@ class BankAccount:
 
 #create an account
 account = BankAccount("Christopher", 75)
+
+#testing
+account.deposit(50)#First depositing $50
+account.withdraw(30)#Then subtracting $30
+account.withdraw(100)#Trying to withdraw too much money
