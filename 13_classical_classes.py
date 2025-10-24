@@ -97,7 +97,7 @@ class BankAccount:
             print("Withdrew:", amount)
         
         else:
-            print("Not enough balance.")
+            print("Not enough balance.") 
 
 #create an account
 account = BankAccount("Christopher", 75)
